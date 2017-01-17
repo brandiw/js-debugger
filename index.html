@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Debugging</title>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="//code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="/js/debug.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">Welcome to Chrome Tools!</h1>
+
+    <h2 class="text-center">How do I access it?</h2>
+    <p>
+      You may already be familiar with Chrome Dev Tools.
+      In case you aren't, you can access those tools several ways.
+    </p>
+    <ul>
+      <li>Through the Chrome menu. More Tools --> Developer Tools</li>
+      <li>Right-click and select inspect (Elements tab)</li>
+      <li>Keyboard shortcut Alt-Cmd-I (Elements tab)</li>
+      <li>Keyboard shortcut Alt-Cmd-J (Console tab)</li>
+    </ul>
+    <hr>
+
+    <h2 class="text-center">Tabs? Huh?</h2>
+    <p>
+      Now that you have the Chrome tools open, notice the tabs listed along the top.
+    </p>
+    <ul>
+      <li>Elements: Shows you the HTML. Hovering on a tag shows you it's box model properties.</li>
+      <li>Console: Anything JavaScript outputs (including errors) goes here</li>
+      <li>Sources: This shows you all the files that went into this webpage. Debugging happens here.</li>
+      <li>Network: This tab shows you stuff about how the files on the page loaded including status codes, request and response headers, etc.</li>
+      <li>The rest we won't be using much, but you can learn about them on your own!</li>
+    </ul>
+    <hr>
+
+    <h2 class="text-center">What's that phone icon thingy?</h2>
+    <p>
+      To the left of your tabs you will see a little icon that looks like a
+      cell phone next to a tablet. Click on it and see what it does!
+    </p>
+    <ol>
+      <li>Why do you think it's useful to see what your site looks like on a phone?</li>
+      <li>What is "responsive design"?</li>
+      <li>What percentage of website traffic do you think comes from phones?</li>
+    </ol>
+    <hr>
+
+    <h2 class="text-center">How about this debugging business?</h2>
+    <p>
+      I've attached a JavaScript file with a bunch of code I wrote. However I've made a
+      few errors so you'll need to correct them for me! You'll want to do the following:
+    </p>
+    <ul>
+      <li>In the console tab find out the line that the error happens on.</li>
+      <li>Set a breakpoint in the code somewhere above the error</li>
+      <li>Refresh the page</li>
+      <li>A breakpoint stops the code until you allow it to proceed. You can use the provided buttons below to navigate your code (see screenshot).</li>
+      <li>Errors will show up in the console and source tabs in red</li>
+    </ul>
+    <img src="http://res.cloudinary.com/briezh/image/upload/v1484682060/Screen_Shot_2017-01-17_at_11.39.10_AM_balyar.png">
+    <p>From left to right, the buttons do the following:</p>
+    <ul>
+      <li>Pause</li>
+      <li>Step Over (does not enter a function)</li>
+      <li>Step Into (enters a function)</li>
+      <li>Step Out (exits a function)</li>
+      <li>Deactivate all breakpoints</li>
+      <li>Pause On Exceptions</li>
+    </ul>
+    <p>Most of the time, you will probably just use Step Over!</p>
+    <hr>
+
+    <h2 class="text-center">What's my assignment?</h2>
+    <p>Find and fix the errors in debug.js. You may need to google the error message to find out what it's really saying.</p>
+    <h2 id="finish" style="color:#ff66cc;"></h2>
+    <br><br><br>
+    <em>Hint: You will see a message pop up above if you've finished the assignment.</em>
+  </div>
+</body>
+</html>
