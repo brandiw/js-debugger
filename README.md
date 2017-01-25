@@ -14,7 +14,7 @@ By the end of this assignment you will be able to:
 ##Your task
 
 - Fork and clone this repository
-- use NPM Start to initiate browser sync.
+- use npm start to initiate browser sync.
 - Read through index.html
 - Debug the debug.js file as instructed. (Your console will be free of any JS errors at the end)
 - After you've debugged the JS, push the changes to your forked repository
