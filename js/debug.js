@@ -23,13 +23,15 @@ $(document).ready(function(){
   console.log(var amount + 13);//should print out 26
 
   var jackson = "dope dude";
-
   if{typeof jackson === "string"}{
-    console.log("jackson is a", jackson);
+    console.log("jackson is a", jackson);//should print "jackson is a dope dude", which is true
   }
 
-  var bestMovieEver = "American Tresure';
-  console.log(bestMovieEver);
+  var actorOfTheCentury = "Nicolas Cage";
+  console.log(actorofThecentury, "is a God of excellence and beauty");//should print "Nicolas Cage is a God of excellence and beauty" which is also true.
+
+  var bestMovieEver = "American Treasure';
+  console.log(bestMovieEver);//should print "American Treasure"
 
 
   document.getElementById("finish").innerText = "YOU'RE ALL DONE!!";
