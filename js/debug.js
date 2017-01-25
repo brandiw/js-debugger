@@ -12,5 +12,15 @@ $(document).ready(function(){
   var z = { width: 5, height: 7};
   console.log("z is ", z.getWidth(), "inches wide.");
 
+  var q = 100;
+  if(q > 50);{
+    console.log("q is a big number")
+  };else{
+    console.log("q is less than 50 dawg")
+  };
+
+  
+
+
   document.getElementById("finish").innerText = "YOU'RE ALL DONE!!";
 });
