@@ -22,6 +22,11 @@ $(document).ready(function(){
   var amount = 13;
   console.log(var amount + 13);//should print out 26
 
+  var num = "37";
+  if(num = "37"){
+    console.log("18 + 19 =", num);
+  }
+
   var jackson = "dope dude";
   if{typeof jackson === "string"}{
     console.log("jackson is a", jackson);//should print "jackson is a dope dude", which is true
