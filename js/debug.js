@@ -5,7 +5,7 @@ $(document).ready(function(){
   var result = Math.power(x, x); //expects 2^2 equals 4
   console.log("Got", result, "Expected 4");
 
-  var y == 4;
+  var y = 4;
   var result2 = y + x; //expect 4 + 2 equals 6
   console.log("Got", result2, "Expected 6");
 
