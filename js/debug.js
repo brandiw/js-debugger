@@ -4,7 +4,7 @@ $(document).ready(function(){
   var x = 2;
   var result = Math.power(x, x); //expects 2^2 equals 4
   console.log("Got", result, "Expected 4");
-
+};
   var y == 4;
   var result2 = y + x; //expect 4 + 2 equals 6
   console.log("Got", result2, "Expected 6");
@@ -13,6 +13,7 @@ $(document).ready(function(){
   console.log("z is ", z.getWidth(), "inches wide."); //expect "z is 5 inches wide"
 
   var q = 100;
+
   if(q > 50);{
     console.log("q is a big number"); //this is what should print to the console
   };
@@ -36,9 +37,9 @@ $(document).ready(function(){
   var actorOfTheCentury = "Nicolas Cage";
   console.log(actorofThecentury, "is a God of excellence and beauty"); //should print "Nicolas Cage is a God of excellence and beauty" which is also true.
 
-  var bestMovieEver = "American Treasure';
+  var bestMovieEver = "American Treasure";
   console.log(bestMovieEver);//should print "American Treasure"
 
 
   document.getElementById("finish").innerText = "YOU'RE ALL DONE!!";
-});
+};// });
