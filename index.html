@@ -3,10 +3,17 @@
 <head>
   <title>JS Debugging</title>
   <!-- Latest compiled and minified CSS & JS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <script src="/js-debugger/debug.js"></script> <!-- /*i need to figure out the correct relitive path*/ -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <script src="./js/debug.js"></script>
+  
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
+  
+
+  <!-- <script src="/js-debugger/debug.js"></script> --> 
+
+  <!-- /*script should be located above the closing body tag*/ -->
+  <!-- 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
+  
+  <!-- <script src="./js/debug.js"></script> --> <!-- this is a wrong path relative to this index.html ->placed this js script tag below -->
 </head>
 <body>
   <div class="container">
@@ -82,5 +89,7 @@
     <em>Hint: You will see a message pop up above if you've finished the assignment.</em>
     <em style="display: block">2nd Hint: go to <a href="https://developers.google.com/web/tools/chrome-devtools/javascript/">The Google Developer Site</a> for more in depth instruction on how to use the debugger if you get stuck.</em>
   </div>
+
+  <script type="text/javascript" src="js/debug.js"></script>
 </body>
 </html>
