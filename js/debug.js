@@ -1,16 +1,16 @@
-$(document).ready(function(){
+$(document).ready(function() {
   console.log("Let's learn how to debug.");
 
   var x = 2;
-  var result = Math.power(x, x); //expects 2^2 equals 4
-  console.log("Got", result, "Expected 4");
+  var result = Math.pow(x, x); //expects 2^2 equals 4
+  console.log("Got " + result + " Expected 4");
 
   var y = 4;
   var result2 = y + x; //expect 4 + 2 equals 6
-  console.log("Got", result2, "Expected 6");
+  console.log("Got " + result2 + " Expected 6");
 
-  var z = { width: 5, height: 7};
-  console.log("z is ", z.getWidth(), "inches wide."); //expect "z is 5 inches wide"
+  var z = 5; //{ width: 5, height: 7};
+  console.log("z is " + z + "inches wide."); //expect "z is 5 inches wide"
 
   var q = 100;
 
@@ -24,7 +24,7 @@ $(document).ready(function(){
   console.log(amount += 13); //should print out 26 ---> or just console.log(3); <----
 
   var num = "37";
-  if(num = "5"){
+  if(num === "5"){
     console.log("My num is", num); //This should not get printed since num is "37"
   }
 
@@ -34,7 +34,7 @@ $(document).ready(function(){
   }
 
   var actorOfTheCentury = "Nicolas Cage";
-  console.log(actorofThecentury, "is a God of excellence and beauty"); //should print "Nicolas Cage is a God of excellence and beauty" which is also true.
+  console.log(actorOfTheC\entury, "is a God of excellence and beauty"); //should print "Nicolas Cage is a God of excellence and beauty" which is also true.
 
   var bestMovieEver = "American Treasure";
   console.log(bestMovieEver);//should print "American Treasure"
