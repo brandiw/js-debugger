@@ -1,6 +1,6 @@
-#Debugging JavaScript with Chrome Dev Tools
+# Debugging JavaScript with Chrome Dev Tools
 
-##Objective
+## Objective
 
 By the end of this assignment you will be able to:
 - Open the Chrome Developer Tools
@@ -11,7 +11,7 @@ By the end of this assignment you will be able to:
 
 (Prepare to demo these skills in class!)
 
-##Your task
+## Your task
 
 - Fork and clone this repository
 - Type `npm install` to load up browsersync
@@ -22,7 +22,7 @@ By the end of this assignment you will be able to:
 - After you've debugged the JS, push the changes to your forked repository
 - From your GitHub repository, create a pull request against the original
 
-###Helpful hints
+### Helpful hints
 
 If you get stuck...
 - Check out this [W3Schools article about common JavaScript mistakes](http://www.w3schools.com/js/js_mistakes.asp)
@@ -31,6 +31,6 @@ If you get stuck...
 - Review past notes on the [course website](https://www.gitbook.com/book/wdi_sea/notes/details)
 - Go to the [Google Developers Website](https://developers.google.com/web/tools/chrome-devtools/javascript/) for more in depth instructions of the things the debugger and dev tools can do.
 
-###Further Resources
+## Further Resources
 
 - The [Google Developers Youtube Channel](https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw) has tons of resources about the Dev Tools (I like [this video](https://www.youtube.com/watch?v=nOEw9iiopwI) in particular as a guide to some dev tool shortcuts).
