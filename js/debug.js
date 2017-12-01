@@ -1,8 +1,10 @@
 $(function() {
   console.log( "Let's learn how to debug!" );
+
+  //changed this to the shorthand?  I think this was uneccessary.
   
   var x = 2;
-  var result = Math.power(x, x); //expects 2^2 equals 4
+  var result = Math.pow(x, x); //expects 2^2 equals 4
   console.log("Got", result, "Expected 4");
 
   var y = 4;
@@ -10,20 +12,21 @@ $(function() {
   console.log("Got", result2, "Expected 6");
 
   var z = { width: 5, height: 7};
-  console.log("z is ", z.getWidth(), "inches wide."); //expect "z is 5 inches wide"
+  console.log("z is ", z.getWid(), "inches wide."); //expect "z is 5 inches wide"
 
   var q = 100;
   if(q > 50){
     console.log("q is a big number"); //this is what should print to the console
-  }else{
+  } else {
     console.log("q is less than 50 dawg")
   };
+  //colons gone!
 
   var amount = 13;
   console.log(amount + 13); //should print out 26
 
   var num = "37";
-  if(num = "5"){
+  if(num === "5"){
     console.log("My num is", num); //This should not get printed since num is "37"
   }
 
@@ -40,4 +43,5 @@ $(function() {
 
 
   document.getElementById("finish").innerText = "YOU'RE ALL DONE!!";
+
 });
