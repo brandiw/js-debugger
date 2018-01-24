@@ -29,11 +29,11 @@ $(document).ready(function(){
 
   var jackson = "dope dude";
   if (typeof jackson === "string") {
-    console.log("jackson is a ", jackson);//should print "jackson is a dope dude", which is true
+    console.log("jackson is a", jackson);//should print "jackson is a dope dude", which is true
   }
 
   var actorOfTheCentury = "Nicolas Cage";
-  console.log(actorOfTheCentury, " is a God of excellence and beauty"); //should print "Nicolas Cage is a God of excellence and beauty" which is also true.
+  console.log(actorOfTheCentury, "is a God of excellence and beauty"); //should print "Nicolas Cage is a God of excellence and beauty" which is also true.
 
   var bestMovieEver = "American Treasure";
   console.log(bestMovieEver);//should print "American Treasure"
