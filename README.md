@@ -28,7 +28,7 @@ If you get stuck...
 - Check out this [W3Schools article about common JavaScript mistakes](http://www.w3schools.com/js/js_mistakes.asp)
 - Always feel free to work with a partner!
 - Ask for help via our Slack channel
-- Review past notes on the [course website](https://www.gitbook.com/book/wdi_sea/notes/details)
+- Review past notes on the [course website](https://gawdiseattle.gitbooks.io/wdi/content/)
 - Go to the [Google Developers Website](https://developers.google.com/web/tools/chrome-devtools/javascript/) for more in depth instructions of the things the debugger and dev tools can do.
 
 ## Further Resources
