@@ -13,7 +13,11 @@
   "license": "ISC",
   "dependencies": {
     "browser-sync": "^2.18.6",
+    "chokidar": "^2.0.4",
     "csslint": "^1.0.5",
     "eslint": "^3.13.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.6"
   }
 }
