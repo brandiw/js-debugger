@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function(){
   console.log("Got", result2, "Expected 6");
 
   var z = { width: 5, height: 7};
-  console.log("z is ", z.width, "inches wide."); //expect "z is 5 inches wide"
+  console.log("z is ", z, "inches wide."); //expect "z is 5 inches wide"
 
   var q = 100;
   if(q > 50) {
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function(){
   }
 
   var actorOfTheCentury = "Nicolas Cage";
-  console.log(actorofThecentury, "is a God of excellence and beauty"); //should print "Nicolas Cage is a God of excellence and beauty" which is also true.
+  console.log(actorOfTheCentury, "is a God of excellence and beauty"); //should print "Nicolas Cage is a God of excellence and beauty" which is also true.
 
   var bestMovieEver = 'American Treasure';
   console.log(bestMovieEver);//should print "American Treasure"
