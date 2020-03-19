@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function(){
   console.log("Got", result, "Expected 4");
 
   var y = 4;
-  var x = 2;
   var result2 = y + x; //expect 4 + 2 equals 6
   console.log("Got", result2, "Expected 6");
 
@@ -24,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function(){
   console.log(amount + 13); //should print out 26
 
   var num = "37";
-  if(num != "37"){
+  if(num == "5"){
     console.log("My num is", num); //This should not get printed since num is "37"
   };
 
