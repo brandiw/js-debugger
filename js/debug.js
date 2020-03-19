@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function(){
   console.log("Let's learn how to debug.");
 
   var x = 2;
-  var result = Math.power(x, x); //expects 2^2 equals 4
+  var result = Math.pow(x, x); //expects 2^2 equals 4
   console.log("Got", result, "Expected 4");
 
   var y = 4;
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function(){
   console.log("Got", result2, "Expected 6");
 
   var z = { width: 5, height: 7};
-  console.log("z is ", z.getWidth(), "inches wide."); //expect "z is 5 inches wide"
+  console.log("z is " + z.Width + " inches wide."); //expect "z is 5 inches wide"
 
   var q = 100;
   if(q > 50);{
@@ -34,11 +34,14 @@ document.addEventListener('DOMContentLoaded', function(){
   }
 
   var actorOfTheCentury = "Nicolas Cage";
-  console.log(actorofThecentury, "is a God of excellence and beauty"); //should print "Nicolas Cage is a God of excellence and beauty" which is also true.
+  if(typeof jackson === "string")
+    console.log(actorOfTheCentury, "is a God of excellence and beauty"); //should print "Nicolas Cage is a God of excellence and beauty" which is also true.
+
+  
 
   var bestMovieEver = "American Treasure"
   console.log(bestMovieEver);//should print "American Treasure"
 
 
-  document.getElementById("finish").innerText = "YOU'RE ALL DONE!!";
+document.getElementById("finish").innerText = "YOU'RE ALL DONE!!";
 });
